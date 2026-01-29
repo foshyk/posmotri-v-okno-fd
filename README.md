@@ -1,1 +1,1 @@
-https://github.com/foshyk/posmotri-v-okno-fd#
+https://github.com/foshyk/posmotri-v-okno-fd
