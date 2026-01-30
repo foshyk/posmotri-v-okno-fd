@@ -102,7 +102,7 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  line-height: 94%;
+  line-height: 100%;
 }
 
 .result__video-container {
@@ -126,19 +126,15 @@ ol {
   gap: 30px;
 }
 
-/*строго ограничила высоту и ширину 
-для корректного отображения по макету 
-(страница нет подходящих видео), 
-если есть другое решение-подскажите*/
 .content__list-container {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
   height: 298px; 
-  width: 399px;
+  min-width: 399px;
   overflow: auto;
-}
+} 
 
 .content__video-card {
   display: flex;
@@ -260,7 +256,7 @@ ol {
   cursor: pointer;
 }
 
-.search-form__label .search-form__label-text:hover {
+.search-form__label:hover .search-form__label-text {
   text-decoration: underline;
 }
 
@@ -301,7 +297,7 @@ ol {
 
 /* СОСТОЯНИЯ КАРТОЧЕК */
 .content__card-link_current {
-  background-color: transparent;
+  background-color: #545050;
 }
 
 .content__card-link:active {
